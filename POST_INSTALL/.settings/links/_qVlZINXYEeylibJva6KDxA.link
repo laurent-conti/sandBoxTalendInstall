@@ -1,0 +1,34 @@
+{
+  "itemId" : "_qVlZINXYEeylibJva6KDxA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_hoJJsMb3EeyJ0dIcA7mreQ",
+    "parameterList" : [ {
+      "id" : "_tvCDAMb3EeyJ0dIcA7mreQ",
+      "name" : "talend_cloud_endPoint"
+    }, {
+      "id" : "_tvCDAcb3EeyJ0dIcA7mreQ",
+      "name" : "talend_cloud_token"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_hoJJsMb3EeyJ0dIcA7mreQ",
+    "parameterList" : [ {
+      "id" : "_uhyVpMb3EeyJ0dIcA7mreQ",
+      "name" : "talend_cloud_endPoint"
+    }, {
+      "id" : "_uhyVpcb3EeyJ0dIcA7mreQ",
+      "name" : "talend_cloud_token"
+    } ]
+  }, {
+    "contextName" : "INT",
+    "repoId" : "_hoJJsMb3EeyJ0dIcA7mreQ",
+    "parameterList" : [ {
+      "id" : "_uhyVocb3EeyJ0dIcA7mreQ",
+      "name" : "talend_cloud_endPoint"
+    }, {
+      "id" : "_uhyVosb3EeyJ0dIcA7mreQ",
+      "name" : "talend_cloud_token"
+    } ]
+  } ]
+}

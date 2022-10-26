@@ -1,0 +1,56 @@
+package routines;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.sql.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.regex.Pattern;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.io.UnsupportedEncodingException;
+
+
+public class ToolsBox {
+	/**
+	 * NVL in java, return the input if it's a no null value otherwize return
+	 * the output
+	 * 
+	 * @param inputString
+	 * @param outputString
+	 * @return input if not null, otherwise output (param)
+	 */
+	public static String nvl(String inputString, String outputString) {
+		if ((inputString == null) || (inputString.trim().length() == 0))
+			return outputString;
+		else
+			return inputString;
+	}
+
+	public static Long nvl(Long inputLong, Long outputLong) {
+		if (inputLong == null)
+			return outputLong;
+		else
+			return inputLong;
+	}
+
+	public static BigDecimal nvl(BigDecimal inputBigDecimal,
+			BigDecimal outputBigDecimal) {
+		if (inputBigDecimal == null)
+			return outputBigDecimal;
+		else
+			return inputBigDecimal;
+	}
+
+	public static Integer nvl(Integer inputInteger, Integer outputInteger) {
+		if (inputInteger == null)
+			return outputInteger;
+		else
+			return inputInteger;
+	}
+
+}
